@@ -42,18 +42,19 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
+
 /* Header */
 .header {
-    position: relative;
     background-color: #e6f0ff;
-    height: 100vh;
-    display: flex;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
 }
-
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -85,6 +86,16 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+}
+
+/* hero */
+.hero-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6f0ff;
+    height: 100vh;
+    display: flex;
 }
 
 .hero {
